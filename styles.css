@@ -1,0 +1,9 @@
+.box {
+    height: 100px;
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+
+.box:nth-child(2n) {
+    background-color: blue;
+}
